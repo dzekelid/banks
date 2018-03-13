@@ -22,7 +22,7 @@ apis:
   tags: Banks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/banks/master/_listings/capital-one-devexchange/bills-billid-delete.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/banks/master/_listings/capital-one-devexchange/branches-get.md
 x-common:
 - type: x-authentication
   url: https://developer.capitalone.com/platform-documentation/authorization-with-oauth-20/
