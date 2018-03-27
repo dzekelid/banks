@@ -22,7 +22,7 @@ apis:
   tags: Banks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/banks/master/_listings/capital-one-devexchange/accounts-id-customer-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/banks/master/_listings/capital-one-devexchange/atms-get.md
 x-common:
 - type: x-authentication
   url: https://developer.capitalone.com/platform-documentation/authorization-with-oauth-20/
