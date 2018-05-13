@@ -23,17 +23,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/banks/master/_listings/capital-one-devexchange/withdrawals-id-delete.md
-- name: Capital One DevExchange Get all deposits
-  description: Returns the deposits that you are involved in.
+- name: Capital One DevExchange Create a deposit
+  description: Creates a deposit where the account with the ID specified receives
+    the amount.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/capitalone-devexchange.png
   humanURL: http://capitalone.com
   baseURL: https://api.reimaginebanking.com//
   tags: Banks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/banks/master/_listings/capital-one-devexchange/accounts-id-deposits-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/banks/master/_listings/capital-one-devexchange/accounts-id-deposits-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/banks/master/_listings/capital-one-devexchange/accounts-id-deposits-post.md
 x-common:
 - type: x-authentication
   url: https://developer.capitalone.com/platform-documentation/authorization-with-oauth-20/
