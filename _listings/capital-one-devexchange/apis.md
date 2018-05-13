@@ -23,17 +23,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/banks/master/_listings/capital-one-devexchange/withdrawals-id-delete.md
-- name: Capital One DevExchange Get customer that owns the specified account
-  description: Returns the customer that the account belongs to.
+- name: Capital One DevExchange Get all ATMs
+  description: Returns all of the Capital One ATMs in the speified search area.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/capitalone-devexchange.png
   humanURL: http://capitalone.com
   baseURL: https://api.reimaginebanking.com//
   tags: Banks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/banks/master/_listings/capital-one-devexchange/accounts-id-customer-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/banks/master/_listings/capital-one-devexchange/atms-get.md
   - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/banks/master/_listings/capital-one-devexchange/accounts-id-customer-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/banks/master/_listings/capital-one-devexchange/atms-get-postman.md
 x-common:
 - type: x-authentication
   url: https://developer.capitalone.com/platform-documentation/authorization-with-oauth-20/
