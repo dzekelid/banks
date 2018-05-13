@@ -23,17 +23,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/banks/master/_listings/capital-one-devexchange/withdrawals-id-delete.md
-- name: Capital One DevExchange Get bill by id
-  description: Returns the bill with the specific id
+- name: Capital One DevExchange Update a specific existing bill
+  description: Updates the specific bill
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/capitalone-devexchange.png
   humanURL: http://capitalone.com
   baseURL: https://api.reimaginebanking.com//
   tags: Banks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/banks/master/_listings/capital-one-devexchange/bills-billid-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/banks/master/_listings/capital-one-devexchange/bills-billid-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/banks/master/_listings/capital-one-devexchange/bills-billid-put.md
 x-common:
 - type: x-authentication
   url: https://developer.capitalone.com/platform-documentation/authorization-with-oauth-20/
