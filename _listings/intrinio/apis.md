@@ -31,16 +31,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/banks/master/_listings/intrinio/tags-banks-get.md
-- name: Intrinio API Bank Holding Companies
-  description: Returns bank holding company list and information for all bank holding
-    companies covered by Intrinio.
+- name: Intrinio API Failed Banks
+  description: Returns failed bank list and information for all failed banks covered
+    by Intrinio.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IntrinioLogo-Green-optimized.png
   humanURL: https://intrinio.com
   baseURL: https://api.intrinio.com//
   tags: Banks
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/banks/master/_listings/intrinio/banks-holding-companies-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/banks/master/_listings/intrinio/banks-failed-get.md
 x-common:
 - type: x-applications-showcase
   url: https://intrinio.com/marketplace/apps
